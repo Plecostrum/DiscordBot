@@ -1,0 +1,51 @@
+prefix - r!
+All commands are called by using the prefix then the command.
+Example: 
+    r!roll20
+    r!action (attack|ATTACK|Attack)
+Available commands:
+
+Rolling:
+    roll100
+        rolls a d100 die.
+    roll20
+        rolls a d20 die.
+    roll12
+        rolls a d12 die.
+    roll10
+        rolls a d10 die.
+    roll8
+        rolls a d8 die.
+    roll6
+        rolls a d6 die.
+    roll4
+        rolls a d4 die..
+
+Modified Rolls:
+    attack (atkmod)
+        atkmod (int) bonus to attack rolls.
+        rolls for attacks(d20) adding atkmod.
+Stats:
+    rollstats
+        rolls all 6 stats for a player character.
+        rolling 4d6 - removing smallest value then getting total of the remaining rolls.
+
+Query Actions:
+    actions
+        Display all possible actions you could take.
+    action (actionName)
+        actionName - non case sensitive
+        Display information about a certain action.
+Query Conditions:
+    conditions
+        Display all possible conditions you could encounter.
+    condition (conditionName)
+        conditionName - non case sensitive
+        Display information about a certain condition.
+        
+Query Movements: - TO BE IMPLEMENTED
+
+Query Reaction: - TO BE IMPLEMENTED
+
+Query Bonus Action: - TO BE IMPLEMENTED
+
